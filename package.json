@@ -1,21 +1,17 @@
 {
-  "name": "variance-component",
+  "name": "component-variance",
+  "description": "Array variance utility",
   "version": "1.0.0",
+  "keywords": [
+    "array",
+    "variance",
+    "utility",
+    "stats",
+    "statistics"
+  ],
   "dependencies": {
-    "to-function": "*",
-    "mean-component": "*"
+    "component-to-function": "git://github.com/npmcomponent/component-to-function.git",
+    "component-mean": "git://github.com/npmcomponent/component-mean.git"
   },
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*"
-  },
-  "component": {
-    "scripts": {
-      "variance": "index.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/variance.git"
-  }
+  "license": "MIT"
 }

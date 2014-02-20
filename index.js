@@ -3,8 +3,8 @@
  * Module dependencies.
  */
 
-var toFunction = require('to-function')
-  , mean = require('mean');
+var toFunction = require('component-to-function')
+  , mean = require('component-mean');
 
 /**
  * Return the variance of `arr` with optional callback `fn(val, i)`.
